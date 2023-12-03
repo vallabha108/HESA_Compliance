@@ -11,7 +11,7 @@
     <COURSEID>7N101</COURSEID>
     <CLSDCRS>02</CLSDCRS>
     <COURSETITLE>Master of Business Administration</COURSETITLE>
-    <PREREQUISITE>01</PREREQUISITE>
+    <PREREQUISITE>02</PREREQUISITE>
     <QUALID>7N101</QUALID>
     <TTCID>07</TTCID>
   </Course>
@@ -19,7 +19,7 @@
     <COURSEID>8N101</COURSEID>
     <CLSDCRS>02</CLSDCRS>    
     <COURSETITLE>Doctor of Philosophy</COURSETITLE>
-    <PREREQUISITE>01</PREREQUISITE>
+    <PREREQUISITE>03</PREREQUISITE>
     <QUALID>8N101</QUALID>
     <TTCID>07</TTCID>
   </Course>	
@@ -27,10 +27,10 @@
     <COURSEID>7N105</COURSEID>
     <CLSDCRS>02</CLSDCRS>    
     <COURSETITLE>Master of Business Administration (International)</COURSETITLE>
-    <PREREQUISITE>01</PREREQUISITE>
-    <QUALID>8N101</QUALID>
+    <PREREQUISITE>02</PREREQUISITE>
+    <QUALID>7N105</QUALID>
     <TTCID>07</TTCID>
-  </Course>   
+  </Course>
 	<Module>
 		<MODID>BCM103</MODID>
 		<FTE>17</FTE>
@@ -239,24 +239,6 @@
 		</ModuleCostCentre>
 	</Module>
 	<Module>
-		<MODID>PBC7011</MODID>
-		<FTE>17</FTE>
-		<MTITLE>Global Economy</MTITLE>
-		<ModuleCostCentre>
-			<COSTCN>133</COSTCN>
-			<COSTCNPROPORTION>100</COSTCNPROPORTION>
-		</ModuleCostCentre>
-	</Module>
-	<Module>
-		<MODID>PBC7013</MODID>
-		<FTE>8</FTE>
-		<MTITLE>International Business Strategy</MTITLE>
-		<ModuleCostCentre>
-			<COSTCN>133</COSTCN>
-			<COSTCNPROPORTION>100</COSTCNPROPORTION>
-		</ModuleCostCentre>
-	</Module>
-	<Module>
 		<MODID>PBC7018</MODID>
 		<FTE>8</FTE>
 		<MTITLE>Innovation Management</MTITLE>
@@ -312,7 +294,7 @@
   </Qualification>
   <Qualification>
   	<QUALID>7N101</QUALID>
-  	<QUALCAT>M0003</QUALCAT>
+  	<QUALCAT>M0007</QUALCAT>
   	<QUALTITLE>Master of Business Administration</QUALTITLE>
     <AwardingBodyRole>
       <AWARDINGBODYID>10006841</AWARDINGBODYID>
@@ -333,7 +315,31 @@
       <QUALSUBJECT>100079</QUALSUBJECT>
       <QUALPROPORTION>100</QUALPROPORTION>
     </QualificationSubject>
-  </Qualification>	
+  </Qualification>
+  <Qualification>
+  	<QUALID>CN101</QUALID>
+  	<QUALCAT>C0000</QUALCAT>
+  	<QUALTITLE>Certificate of Higher Education</QUALTITLE>  	
+    <AwardingBodyRole>
+      <AWARDINGBODYID>10006841</AWARDINGBODYID>
+    </AwardingBodyRole>
+    <QualificationSubject>
+      <QUALSUBJECT>100079</QUALSUBJECT>
+      <QUALPROPORTION>100</QUALPROPORTION>
+    </QualificationSubject>
+  </Qualification>
+  <Qualification>
+  	<QUALID>DN101</QUALID>
+  	<QUALCAT>J0002</QUALCAT>
+  	<QUALTITLE>Diploma in Highr Education</QUALTITLE>  	
+    <AwardingBodyRole>
+      <AWARDINGBODYID>10006841</AWARDINGBODYID>
+    </AwardingBodyRole>
+    <QualificationSubject>
+      <QUALSUBJECT>100079</QUALSUBJECT>
+      <QUALPROPORTION>100</QUALPROPORTION>
+    </QualificationSubject>
+  </Qualification>  
   <SessionYear>
     <SESSIONYEARID>6N100Y2223T1</SESSIONYEARID>
     <SYENDDATE>2023-09-25</SYENDDATE>
@@ -342,18 +348,28 @@
   <SessionYear>
     <SESSIONYEARID>6N100Y2223T2</SESSIONYEARID>
     <SYENDDATE>2024-02-05</SYENDDATE>
-    <SYSTARTDATE>2023-06-02</SYSTARTDATE>
+    <SYSTARTDATE>2023-02-06</SYSTARTDATE>
   </SessionYear>
   <SessionYear>
     <SESSIONYEARID>7N100Y2223T1</SESSIONYEARID>
     <SYENDDATE>2023-09-25</SYENDDATE>
-    <SYSTARTDATE>2022-11-26</SYSTARTDATE>
+    <SYSTARTDATE>2022-09-26</SYSTARTDATE>
   </SessionYear>
   <SessionYear>
     <SESSIONYEARID>7N100Y2223T2</SESSIONYEARID>
     <SYENDDATE>2024-02-05</SYENDDATE>
     <SYSTARTDATE>2023-02-06</SYSTARTDATE>
-  </SessionYear>	
+  </SessionYear>
+  <SessionYear>
+    <SESSIONYEARID>7N100Y2122T2</SESSIONYEARID>
+    <SYENDDATE>2023-02-06</SYENDDATE>
+    <SYSTARTDATE>2022-02-07</SYSTARTDATE>
+  </SessionYear>
+  <SessionYear>
+    <SESSIONYEARID>6N100Y2122T2</SESSIONYEARID>
+    <SYENDDATE>2023-02-06</SYENDDATE>
+    <SYSTARTDATE>2022-02-07</SYSTARTDATE>
+  </SessionYear>
 	<Student>
 		<SID>18100320361060044</SID>
 		<BIRTHDTE>1988-10-11</BIRTHDTE>
